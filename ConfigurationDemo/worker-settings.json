@@ -1,0 +1,41 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "Sections": {
+    "Param0": "Value0",
+    "SectionA": {
+      "SectionAA": {
+        "Param1": "value1",
+        "Param2": "value2",
+        "Param3": 123,
+        "Param4": true
+      },
+      "SectionAB": {
+        "SectionABA": {
+          "Param5": "value5",
+          "Param6": false
+        },
+        "Param7": "value7",
+        "Param8": 55.58
+      },
+      "Param9": [ "Value91", "Value92", "Value93" ]
+    },
+    "SectionB": {
+      "Param10": [
+        { 
+          "Name": "Value101",
+          "Flag": true
+        },
+        {
+          "Name": "Value102",
+          "Flag": false
+        }
+      ]
+    },
+    "Param11": 11
+  }
+}
